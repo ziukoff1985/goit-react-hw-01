@@ -17,7 +17,7 @@ const FriendListItem = ({ avatar, name, isOnline }) => {
     <div className={styles.card}>
       <img src={avatar} alt="Avatar" width="110" className={styles.image} />
       <p className={styles.name}>{name}</p>
-      <p className={isOnline ? styles["online"] : styles["offline"]}>
+      <p className={isOnline ? styles.online : styles.offline}>
         {isOnline ? "Online" : "Offline"}
       </p>
     </div>
