@@ -1,49 +1,51 @@
 .centerContainer {
-  display: flex; /* Використання flexbox */
-  justify-content: center; /* Вирівнювання по горизонталі */
-  align-items: center; /* Вирівнювання по вертикалі */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Стилізація таблиці */
 .table {
-  width: 1000px; /* Займає всю ширину контейнера */
+  width: 1000px;
   border-collapse: collapse; /* Прибирає проміжки між клітинками */
-  margin: 20px 0; /* Відступ зверху та знизу */
-  font-size: 16px; /* Розмір тексту */
+  margin: 20px 0;
+  font-size: 16px;
   text-align: center; /* Вирівнювання тексту по центру */
 }
 
 /* Заголовок таблиці */
 .head {
-  background-color: #333; /* Чорний фон */
-  color: #fff; /* Білий текст */
-  text-transform: uppercase; /* Текст у верхньому регістрі */
+  background-color: #333;
+  color: #fff;
+  text-transform: uppercase;
 }
 
+/* Комірки шапки таблиці */
 .tableHeader {
-  padding: 10px 15px; /* Внутрішні відступи */
-  font-weight: bold; /* Жирний текст */
+  padding: 10px 15px;
+  font-weight: bold;
   border: 1px solid #ddd; /* Кордон між заголовками */
 }
 
 /* Чергування кольорів для рядків */
 .tableRow:nth-child(even) {
-  background-color: #f2f2f2; /* Світло-сірий фон */
+  background-color: #f2f2f2;
 }
 
 .tableRow:nth-child(odd) {
-  background-color: #fff; /* Білий фон */
+  background-color: #fff;
 }
 
 /* Стилі для клітинок даних */
 .tableData {
-  padding: 12px 15px; /* Внутрішні відступи */
-  border: 1px solid #ddd; /* Легкий кордон між клітинками */
+  padding: 12px 15px;
+  border: 1px solid #ddd;
   text-align: center; /* Вирівнювання тексту по центру */
   vertical-align: middle; /* Вертикальне вирівнювання тексту */
 }
 
 /* Стан при наведенні */
 .tableRow:hover {
-  background-color: #e0e0e0; /* Світло-сірий фон при наведенні */
+  background-color: #e0e0e0;
+  cursor: pointer;
 }
