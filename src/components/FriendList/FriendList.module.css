@@ -1,0 +1,41 @@
+.list {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+
+.item {
+  width: 180px;
+}
+
+.card {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #777777;
+  border-radius: 10px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+}
+
+.image {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.name {
+  font-size: 30px;
+}
+
+.online {
+  font-size: 24px;
+  color: rgb(0, 179, 0);
+}
+
+.offline {
+  font-size: 24px;
+  color: rgb(228, 41, 41);
+}
